@@ -1,4 +1,15 @@
+<<<<<<< HEAD
 Comandos basicos git
 -
 -
 -
+=======
+git commands
+
+git add
+git commit -m
+git branch
+git switch -c 
+git push
+git pull
+>>>>>>> JTASK
