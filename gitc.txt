@@ -1,4 +1,44 @@
+
 Comandos basicos git
--
--
--
+-----------------
+git start
+git user.name "?"
+git user.email "?"
+
+git add ./?
+git commit -m "?"
+
+git commit --amend --no-edit
+git reset --hard
+
+
+git remote -v (checa se tem repositorio remoto)
+git remote set-url origin url (att url)
+
+git pull (pega dados do remoto)
+git push (envia dados pro remoto)
+
+git clone url, local (copia o diretorio)
+
+ssh-keygen (gera chave ssh)
+cd ~/.ssh/ (vai pra pasta ssh)
+start . (abre a pasta)
+eval $(ssh-agent) (cria acesso)
+ssh-add ~/.ssh/nomedoarquivo
+
+code "arq_name" or . (all_arq)/ (abre o conteudo do repositorio)
+
+
+git branch
+git branch --list
+git branch "nome"
+git checkout "branch_name"
+git checkout -b "branch_name"
+git switch -c "branch_name"
+git branch -d (deletar branch local) "nome_branch"
+git push --delete origin "branch_name" (apagar branch no server)
+git branch -m "branch_name" "new_name"
+
+git push --set-upstream origin "nome da branch" (upa a branch no server)
+git push -u "nome da branch" (upa a branch no server)
+------------------
