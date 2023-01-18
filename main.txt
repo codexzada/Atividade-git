@@ -1,1 +1,24 @@
-Primeiro arquivo...
+REGRAS BASICAS commit
+
+-A mensagem de commit diz o que ele faz, não o que foi feito.
+-Primeira letra em maiúsculo
+-Tente comunicar o que o commit faz sem que seja necessário olhar o conteúdo do commit
+-Use o corpo da mensagem para explicar "porquê", "para quê", "como" e detalhes adicionais
+-Evite commits com mensagens genéricas ou sem contexto algum
+-Tente limitar o nº de colunas das mensagens
+-Mantenha consistência de idioma
+-------------------------------------------------------------------------------------------
+Rebase
+TL;DR: Aplica os commits do seu branch, um a um, sobre o branch de base, gerando uma nova árvore
+
+Merge
+TL;DR: Cria um novo commit, chamado de Merge commit, com as diferenças entre a sua árvore e a árvore de base
+
+rebase -i
+Usado para fazer squash, editar mensagens, editar/apagar/reordenar commits, etc.
+
+Quando fazer squash
+Squash é o processo de pegar uma série de commits e juntá-los em um commit só.
+
+Quando evitar rebase ou squash?
+Evite rebase e squash em commits públicos ou em branches compartilhadas que outras pessoas possam ter trabalhado.
